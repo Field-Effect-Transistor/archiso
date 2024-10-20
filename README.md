@@ -26,7 +26,7 @@ To build the custom ISO, use the following command:
 sudo mkarchiso -v -w /tmp/work -o . archlive
 ```
 
-If build cause an error you can try to use iso from release.
+If build cause an error you can try to use iso from [releases](https://github.com/Field-Effect-Transistor/archiso/releases).
 
 ### Explanation of Flags
 
