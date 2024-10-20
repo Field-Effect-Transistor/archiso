@@ -2,7 +2,7 @@
 
 This repository contains files for creating a custom version of Arch Linux ISO using [archiso](https://wiki.archlinux.org/title/Archiso). This ISO includes enhancements such as git, the Oh My Zsh theme for root.
 
-## Changes in the ISO
+## Features
 
 - **Added git**: [Git](https://git-scm.com/) is included for version control and easier collaboration.
 - **Oh My Zsh for root**: Installed [Oh My Zsh](https://ohmyz.sh/) for the root user to improve the command-line experience.
@@ -12,6 +12,7 @@ This repository contains files for creating a custom version of Arch Linux ISO u
 ## Requirements
 
 - **[Archiso](https://wiki.archlinux.org/title/Archiso)**: archiso is required to build the ISO.
+- **[Parallel](https://www.gnu.org/software/parallel/)(optional)**: Parallel is required for building the ISO in parallel.
 - **[dd](https://wiki.archlinux.org/title/Dd) (Linux or macOS)**: A command-line utility available on Linux and macOS for creating bootable USB drives from ISO images.
 - **[Rufus](https://rufus.ie/) (Windows)**: A lightweight Windows application for creating bootable USB drives from ISO images. It provides a user-friendly interface and supports various file systems and partition schemes.
 
