@@ -1,2 +1,1 @@
-# archiso
-Custom ArchLinux ISO
+# My Project
