@@ -6,7 +6,7 @@ This repository contains files for creating a custom version of Arch Linux ISO u
 
 - **Added git**: [Git](https://git-scm.com/) is included for version control and easier collaboration.
 - **Oh My Zsh for root**: Installed [Oh My Zsh](https://ohmyz.sh/) for the root user to improve the command-line experience.
-- **SSH server with passwordless authentication**: The SSH server is configured to allow passwordless authentication for convenience.
+- **SSH server with empty password authentication**: The SSH server is configured to allow empty password authentication for convenience. SHH connection is opened on port `3469`.
 - **Optimized pacman mirrors**: Mirrors for pacman have been sorted for faster package installation and updates. (for Ukraine)
 
 ## Requirements
@@ -56,6 +56,8 @@ To create a bootable USB drive from the generated ISO, use the following command
 ```bash
 sudo dd if=path_/to/iso/arch*.iso of=/dev/sdX
 ```
+
+Where `path_/to/iso/arch*.iso` is the path to the generated ISO file, and `/dev/sdX` is the device name for the target USB drive (run `lsblk`).
 
 ### Windows
 
